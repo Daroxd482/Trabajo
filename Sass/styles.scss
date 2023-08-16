@@ -1,0 +1,48 @@
+@import "./variables";
+@import "./home";
+@import "./animaciones";
+
+*{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: $color-black;
+    height: 20vh;
+    color: $color-white;
+    padding: 20px;
+    text-align: center;
+    h1{
+        font-size: $fuente-grande;
+        color: $color-primario;
+    }
+    h2{
+        font-size: $fuente-mediana;
+        font-weight: lighter;
+    }
+}
+main {
+    padding: 0px 200px;
+    height: 80vh;
+    background-color: $color-white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding-left: 400px;
+    img {
+        width: 250px;
+        height: 250px;
+        border-radius: 150px;
+    }
+    button {
+        width: 120px;
+        font-size: 17px;
+        color: #ff9900;
+        border: solid 1px #ff9900;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+}
